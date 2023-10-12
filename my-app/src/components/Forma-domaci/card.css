@@ -1,0 +1,23 @@
+.card{
+    width: 200px;
+    height: auto;
+    background-color: transparent;
+    color: #CBB;
+    text-decoration: none;
+    transition: .5s;
+    border: 1px solid #8f7cec;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bot: 20px;
+}
+.card:hover{
+    background-color: #8f7cec;
+    color: white;
+    border: 5px;
+    box-shadow: 0px 0px 50px #8f7cec;
+}
+.card:hover span{
+    color: white;
+}

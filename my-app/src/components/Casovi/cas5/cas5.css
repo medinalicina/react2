@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35%;
+    height: 50vh;
+    padding: 50px 0;
+    background-color: rgb(114, 114, 187);
+  }
+  
+  .input {
+    height: 35px;
+    width: 60%;
+    margin: 0px auto;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 0px 5px;
+    outline: none;
+  }
+  
+  .dugme {
+    width: 30%;
+    min-height: 30px;
+    margin: 0px auto;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 20px;
+  }
+  
+  .dugme:hover {
+    scale: 1.1;
+  }
+  

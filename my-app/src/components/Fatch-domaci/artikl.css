@@ -1,0 +1,22 @@
+.artikli{
+    width: 400px;
+    height: auto;
+    /* border: 1px solid black; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.artikli img{
+    mix-blend-mode:multiply;
+    margin-top: 20px;
+    width: 250px;
+    height: 200px;
+    /* border-radius: 100px; */
+}
+.artikli label{
+   color: rgb(45, 120, 185); 
+}

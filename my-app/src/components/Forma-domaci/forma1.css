@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    background-color: #242826;
+}
+.login{
+    position: absolute;
+    top: 50%;
+    left: 82%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background-color: #242826;
+    box-shadow: 0 15px 25px rgba(143, 124, 236, 0.7);
+    border-radius: 10px;
+}
+.login > h2{
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+#txt, #pass {
+    position: relative;
+    top: 15px;
+    width: 100%;
+    padding: 5px 0;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+.user > label{
+    position: relative;
+    left: 0;
+    top: -83px; /* Promenili smo top na 0, tako da labela neće skakati prilikom unosa teksta */
+    padding: 10px 0;
+    color: #8f7cec;
+    transition: .5s;
+}
+.password > label{
+    position: relative;
+    left: 0;
+    top: -80px; /* Promenili smo top na 0, tako da labela neće skakati prilikom unosa teksta */
+    padding: 10px 0;
+    color: #8f7cec;
+    transition: .5s;
+}
+.submit{
+    padding: 15px 25px;
+    background-color: transparent;
+    color: #CBB;
+    text-decoration: none;
+    transition: .5s;
+    border: 1px solid #8f7cec;
+    margin: auto;
+}
+.submit:hover{
+    background-color: #8f7cec;
+    color: white;
+    border: 5px;
+    box-shadow: 0px 0px 50px #8f7cec;
+}
+.button{
+    display: flex;
+    margin-top: 20px;
+}
+.register{
+    font: 14px;
+    text-decoration:none;
+    color: #cbb;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+.register p{
+    cursor: pointer;
+}
+.register > a{
+    margin: auto;
+    color: #8f7cec;
+    text-decoration:none;
+}
+.checkbox{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #8f7cec;
+}
+.child-checkbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.child-checkbox input{
+    width: 100px;
+    transform: scale(0.5);
+}
+.child-checkbox label{
+    position: relative;
+    top: 5px;
+}
+.child-checkbox label p{
+    position: relative;
+    bottom: 77px;
+}
