@@ -1,0 +1,32 @@
+.post {
+    width: 270px;
+    height: 400px;
+    background-color: transparent;
+    color: #cbb;
+    text-decoration: none;
+    transition: 0.5s;
+    border: 1px solid #8f7cec;
+    display: block;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 47px;
+    margin-left: 47px;
+    font-size: 13px;
+    overflow: auto;
+  }
+  .post:hover {
+    background-color: #8f7cec;
+    color: white;
+    border: 5px;
+    box-shadow: 0px 0px 50px #8f7cec;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+  }
+  .post:hover span {
+    color: white;
+  }

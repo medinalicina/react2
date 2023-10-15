@@ -1,0 +1,9 @@
+.paginacija{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  button:hover {
+    background-color: rgb(234, 24, 59);
+  }
