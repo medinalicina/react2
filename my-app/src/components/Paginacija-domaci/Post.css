@@ -1,11 +1,18 @@
+.pozadina {
+  display: flex; /* Koristi flexbox */
+  flex-wrap: wrap; /* Omogući prelazak u novi red ako nema dovoljno prostora */
+  gap: 20px; /* Razmak između postova */
+  padding: 20px; /* Dodajte padding za udobnost */
+  background-color: #f0f0f0; /* Boja pozadine */
+}
 .post {
     width: 270px;
-    height: 400px;
+    min-height: 400px;
     background-color: transparent;
-    color: #cbb;
+    color: #9a5fb5;
     text-decoration: none;
     transition: 0.5s;
-    border: 1px solid #8f7cec;
+    border: 1px solid #9a5fb5;
     display: block;
     justify-content: center;
     padding-top: 20px;
@@ -20,13 +27,35 @@
     overflow: auto;
   }
   .post:hover {
-    background-color: #8f7cec;
+    background-color: #9a5fb5;
     color: white;
     border: 5px;
-    box-shadow: 0px 0px 50px #8f7cec;
-    /* padding-top: 20px;
-    padding-bottom: 20px; */
+    box-shadow: 0px 0px 50px #9a5fb5;
+    padding-top: 20px;
+    padding-bottom: 20px; 
   }
   .post:hover span {
-    color: white;
+    color: black;
+  } 
+
+
+
+
+   /* .post {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
   }
+  
+  .post .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .post .body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+   */

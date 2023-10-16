@@ -1,9 +1,34 @@
 .paginacija{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-  }
-  button:hover {
-    background-color: rgb(234, 24, 59);
-  }
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+  padding: 20px; 
+  background-color: rgb(224, 224, 221); 
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 500px;
+}
+
+.pagination button {
+  border: none;
+  border-radius: 30%;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  background-color: #9a5fb5;;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pagination button:hover {
+  background-color: #b45fce;
+}
+
+.pagination button.active {
+  background-color: #e3abfc;
+  font-weight: bold;
+}
