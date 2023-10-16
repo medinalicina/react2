@@ -2,8 +2,8 @@
   display: flex; /* Koristi flexbox */
   flex-wrap: wrap; /* Omogući prelazak u novi red ako nema dovoljno prostora */
   gap: 20px; /* Razmak između postova */
-  padding: 20px; /* Dodajte padding za udobnost */
-  background-color: #f0f0f0; /* Boja pozadine */
+  padding: 20px; 
+  background-color: #f0f0f0; 
 }
 .post {
     width: 270px;
