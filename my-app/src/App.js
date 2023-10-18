@@ -3,8 +3,11 @@ import Cas6 from "./components/Casovi/cas6/cas6";
 // import Card from "./components/Card/Card";
 import Forma1 from "./components/Forma-domaci/forma1";
 import React, { useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Paginacija from "./components/Paginacija-domaci/Paginacija";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
 
 //JSX
 function App() {
@@ -32,9 +35,17 @@ function App() {
   };
 
   return (
-  <>
-    <Paginacija />
-  </>
+    <>
+
+<BrowserRouter>
+        <Routes>
+            <Route  path="/home" element={<HomePage/>}/>
+            <Route path="/about" element={<AboutPage/>}/>
+            </Routes>
+        </BrowserRouter></>
+  // <>
+  //   <Paginacija />
+  // </>
     )
 //     // <>
 //     // <Paginacija-domaci>
